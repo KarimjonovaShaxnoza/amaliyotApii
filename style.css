@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+   
+  }
+  
+  .row {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+  
+  
+  .card {
+    background-color: white;
+    width: 300px;
+    padding: 15px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+    margin-top: 20%;
+  }
+  .card h3 {
+    color: black;
+    padding: 1px 5px;
+    border-radius: 5px;
+    margin-left: 15%;
+    margin-top: 15px;
+  }
+  
+  .text {
+    margin-left: 40%;
+  }
+  .text h1 {
+    font-weight: initial;
+    margin-top: 10%;
+  }
+  .card img {
+    width: 150px;
+    margin-left: 15%;
+    margin-top: 30px;
+  }
+  
+  .card p{
+   margin-left: 30%;
+   margin-top: 15px;
+  }
+  .card h4{
+      text-align: center;
+      margin-top: 15px;
+  }
+  
+  .TwoBox button{
+      width: 100px;
+      height: 30px;
+      color: white;
+      background-color: green;
+      border:  none;
+      margin-left: 20px;
+  }
+  
+  .TwoBox{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 15%;
+  }
+  .textp {
+    margin-left: 40px;
+  }
